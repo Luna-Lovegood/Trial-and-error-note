@@ -22,7 +22,7 @@ sudo ifconfig wlp5s0 up
 * 方法二：用airmon-ng切换网卡模式
 
 ```
-sudo apt install airmon-ng
+sudo apt install aircrack-ng
 sudo airmon-ng start wlp5s0
 ```
 然后查看一下网卡的模式，然鹅我的wlp5s0网卡依旧显示：
